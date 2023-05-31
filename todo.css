@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 2rem;
+  overflow-y: scroll;
+  opacity: 0.8;
+  background-image: url("https://cdn.pixabay.com/photo/2022/04/23/20/51/nature-7152461_960_720.jpg");
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#formcontainer {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+#inputform {
+  border: none;
+  padding: 0.5rem;
+  height: 2rem;
+  width: 15rem;
+  border-radius: 5px;
+}
+
+#inputform:focus {
+  outline: none;
+}
+
+#inputbuton {
+  height: 2rem;
+  border-radius: 5px;
+  color: red;
+  font-size: 0.9rem;
+  background-color: aqua;
+  font-weight: bold;
+}
+#inputbuton:hover {
+  transform: scale(0.96);
+  transition: 0.5s;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.liler {
+  display: flex;
+  align-items: center;
+  width: 15rem;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 5px;
+  background-color: white;
+  text-decoration: none;
+  justify-content: space-between;
+  white-space: nowrap;
+  overflow: auto;
+}
+
+.liler i {
+  cursor: pointer;
+}
+
+.liler .fas.fa-check {
+  margin-right: 0.5rem;
+}
